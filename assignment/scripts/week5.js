@@ -3,7 +3,6 @@ console.log('js');
 
 //addToCollection function
 //-----------------------
-
 let collection = [];
 
 function addToCollection( title, artist, year ){
