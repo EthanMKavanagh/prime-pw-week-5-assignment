@@ -1,0 +1,13 @@
+header {
+  text-align: center;
+  background-color: #7fdc74
+}
+
+footer {
+  background-color: #7fdc74
+}
+
+body {
+  background-image: url( "record.png" );
+  background-size: cover;
+}
