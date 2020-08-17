@@ -44,20 +44,20 @@ console.log( 'Should be false', findRecord( 'Jump Around' ) );
 
 // allBy( artist ) function
 //-------------------------
-/* function allBy( artist ){
+function allBy( artist ){
   for( i = 0; i < collection.length; i++ ){
-    if( collection.artist === artist ){
-      collection.push( {
-        artist: 'Train'
-      } );
-      return collection;
+    if( collection[ i ].artist === artist ){
+      return artist;
     } // end if
   } // end for
+  return false;
 } // end allBy
+const titleCol = collection.filter( (collection) => collection[ i ].artist != artist );
+console.log( allBy( 'Train' ), 'has made all these songs:', titleCol );
+console.log( allBy( 'Polo G' ), 'has made these songs:', titleCol );
 
-console.log( allBy( 'Train' ) );
 
-*/
+
 
 
 
